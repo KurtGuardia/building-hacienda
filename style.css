@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+
+div {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.vaca {
+  margin: 0 80px 0 0px;
+  height: 100vh;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo{
+    width: 200px;
+    height: 90px;
+    align-self: center;
+    margin-bottom: 80px;
+}
+
+h1 {
+  color: rgba(199, 3, 3, 0.924);
+  padding-bottom: 50px;
+  font-size: 50px;
+}
+
+p{
+    font-size: 26px;
+    max-width: 800px;
+    padding: 10px;
+}
+
+
+p img{
+    width: 25px;
+    height: auto;
+    padding-left: 10px;
+}
+
+.invitation{
+    padding-bottom: 50px;
+}
+
+.redes{
+    width: fit-content;
+
+}
+
+.whats{
+    color: #25d366;
+}
+
+.fb{
+    color: #1877f2;
+}
+
+.ins{
+    color: #c32aa3;
+}
+
+@media(max-width: 600px){
+    .vaca{
+        display: none;
+    }
+    body{margin: 15px;}
+}
